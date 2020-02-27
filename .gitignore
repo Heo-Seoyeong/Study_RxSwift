@@ -2,10 +2,23 @@
 
 build
 
+xcschememanagement.plist
+Xcuserdata/
+WorkspaceSettings.xcsettings
+UserInterfaceState.xcuserstate
+Breakpoints_v2.xcbkptlist
+contents.xcworkspacedata
+
 **/xcuserdata
 *.pbxuser
 *.mode1v3
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+*.xcworkspace
 
-Pods
+# CocoaPods
+Pods/
+Podfile.lock
 vendor
 .bundle/
